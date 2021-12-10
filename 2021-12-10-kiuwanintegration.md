@@ -55,9 +55,9 @@ This then sends this to Kiuwan, and from there I can access more insights about 
 
 ## Invokation of Kiuwan 
 
-This is the first time this has been done on GitHub to my knowledge, there was some questions on the conditionals when running the `agent.sh`. A successful call to Jelly should look like this in the Travis build log:
+This is the first time this has been done on GitHub to my knowledge, there was some questions on the conditionals when running the `agent.sh`. 
 
-## Running the Analyzer 
+## Kiuwan Local Analyzer
 
 You'll then notice output of the Local Analyzer working:
 
@@ -94,7 +94,7 @@ VM settings:
     Using VM: OpenJDK 64-Bit Server VM
     
 ```
-You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created:
+You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created. Below you'll see a screenshot of the Jelly service email I received after a successful scan:
 
 
 <img width="521" alt="Screen Shot 2021-12-10 at 1 49 35 PM" src="https://user-images.githubusercontent.com/20936398/145645709-e70c0d6e-23e9-4eda-872b-bba43a470a54.png">
