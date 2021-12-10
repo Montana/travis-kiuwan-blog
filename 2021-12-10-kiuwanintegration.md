@@ -74,8 +74,7 @@ Label for the analysis
 ```
 
 ## Kiuwan Local Analyzer
-
-You'll then notice output of the Local Analyzer working:
+You'll then notice output of the Local Analyzer working, and remember you can select VM size as well - this will affect (in my case) how deep the scan will go, in this particular use case though I just used baseline. Kiuwan will calculate the heap size, and collect the bill of materials (TypeScript, other dependencies):
 
 ```bash
 Discovery: STARTED
@@ -95,8 +94,6 @@ Prepare analysis data: FINISHED
 Prepare source code files for upload: STARTED
 Prepare source code files for upload: FINISHED
 
-Remember you can select VM size as well - this will affect (in my case) how deep the scan will go, in this particular use case though I just used baseline. Kiuwan will calculate the heap size, and collect the bill of materials (TypeScript, other dependencies):
-
 bill-of-materials: 
 bill-of-materials format: 
 includes: 
@@ -107,11 +104,10 @@ VM settings:
     Stack Size: 2.00M
     Min. Heap Size: 128.00M
     Max. Heap Size: 1.00G
-    Using VM: OpenJDK 64-Bit Server VM
-    
+    Using VM: OpenJDK 64-Bit Server VM  
 ```
-You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created. Below you'll see a screenshot of the Jelly service email I received after a successful scan:
 
+You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created. Below you'll see a screenshot of the Jelly service email I received after a successful scan:
 
 <img width="521" alt="Screen Shot 2021-12-10 at 1 49 35 PM" src="https://user-images.githubusercontent.com/20936398/145645709-e70c0d6e-23e9-4eda-872b-bba43a470a54.png">
 
