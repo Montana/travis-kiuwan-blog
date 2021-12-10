@@ -55,7 +55,23 @@ This then sends this to Kiuwan, and from there I can access more insights about 
 
 ## Invokation of Kiuwan 
 
-This is the first time this has been done on GitHub to my knowledge, there was some questions on the conditionals when running the `agent.sh`. 
+You can run the conditionals that fit your scanning needs, I recommend reading [Kiuwan Local Analyzer CLI - Command Line Interface](https://www.kiuwan.com/docs/display/K5/Kiuwan+Local+Analyzer+CLI+-+Command+Line+Interface) for a frame of reference. Some of the conditionals you can add in your `.travis.yml` that are different than mine are as follows:
+
+```bash
+-s, --sourcePath
+Directory with code to analyze
+ 
+-n, --softwareName
+Name of the target application
+ 
+-c, --create
+Create software at kiuwan service if not exists
+ 
+-l, --label
+Label for the analysis
+ 
+-m, --model-name
+```
 
 ## Kiuwan Local Analyzer
 
