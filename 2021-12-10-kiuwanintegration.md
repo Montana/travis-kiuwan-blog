@@ -21,7 +21,7 @@ It's finally here! The integration between Travis and Kiuwan. In this post I'll 
 
 ## Usage
 
-Be sure to make a [Kiuwan](https://www.kiuwan.com account. Then set your `environment variables`: 
+Be sure to make a [Kiuwan](https://www.kiuwan.com) account. Then set your `environment variables`: 
 
 ```bash
 kiuwan_user
@@ -87,7 +87,7 @@ VM settings:
     Using VM: OpenJDK 64-Bit Server VM
     
 ```
-You should then get an email by the Jelly service. You then can scan your project on a more granular level.
+You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created.
 
 Happy building! 
 
