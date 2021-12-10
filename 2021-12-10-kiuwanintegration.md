@@ -25,7 +25,7 @@ Be sure to make a [Kiuwan](https://www.kiuwan.com) account. Then set your `envir
 
 ```bash
 travis encrypt kiuwan_user=""
-travis encrypt kiuwan_password="
+travis encrypt kiuwan_password=""
 ```
 
 If the route you choose is by the Travis GUI, just name the `env vars` the following:
