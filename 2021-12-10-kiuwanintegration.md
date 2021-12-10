@@ -21,7 +21,13 @@ It's finally here! The integration between Travis and Kiuwan. In this post I'll 
 
 ## Usage
 
-Be sure to make a [Kiuwan](https://www.kiuwan.com) account. Then set your `environment variables`: 
+Be sure to make a [Kiuwan](https://www.kiuwan.com) account. Then set your `environment variables` in your `.travis.yml`, using either the Travis GUI or CLI, if you're going to use the CLI run:
+
+```bash
+travis encrypt kiuwan_user=""
+travis encrypt kiuwan_password="
+
+If the route you choose is by the Travis GUI, just name the `env vars` the following:
 
 ```bash
 kiuwan_user
@@ -87,12 +93,12 @@ VM settings:
     Using VM: OpenJDK 64-Bit Server VM
     
 ```
-You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created.
+You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created:
 
 
 <img width="521" alt="Screen Shot 2021-12-10 at 1 49 35 PM" src="https://user-images.githubusercontent.com/20936398/145645709-e70c0d6e-23e9-4eda-872b-bba43a470a54.png">
 
-Then you'll click the link within the email, and you'll get to explore around the Kiuwan GUI. 
+Then you'll click the link within the email, and you'll get to explore around the Kiuwan GUI:
 
 <img width="1600" alt="Screen Shot 2021-12-10 at 1 50 05 PM" src="https://user-images.githubusercontent.com/20936398/145645749-ef9dfa46-bf22-46a0-a330-f3b3693a9f74.png">
 
