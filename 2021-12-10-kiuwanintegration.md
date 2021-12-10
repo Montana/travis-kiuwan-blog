@@ -89,6 +89,15 @@ VM settings:
 ```
 You should then get an email by the Jelly service. You then can scan your project on a more granular level. Here's the [test project](https://www.github.com/Montana/travis-kiuwan) I created.
 
+
+<img width="521" alt="Screen Shot 2021-12-10 at 1 49 35 PM" src="https://user-images.githubusercontent.com/20936398/145645709-e70c0d6e-23e9-4eda-872b-bba43a470a54.png">
+
+Then you'll click the link within the email, and you'll get to explore around the Kiuwan GUI. 
+
+<img width="1600" alt="Screen Shot 2021-12-10 at 1 50 05 PM" src="https://user-images.githubusercontent.com/20936398/145645749-ef9dfa46-bf22-46a0-a330-f3b3693a9f74.png">
+
+You then can check your project out on a more granular security level. With Kiuwan you're that much more secure when deploying code with Travis. 
+
 Happy building! 
 
 As always, if you have any questions please email me at [montana@travis-ci.org](montana@travis-ci.org).
